@@ -15,24 +15,24 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #713d92;
-    height: 90px;
+    height: 70px;
     z-index: 100;
 }
 .heada p{
-    font-size: 22px;
+    font-size: 20px;
     color: white;
     margin-right: 10px;
 }
 .heada img{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
 .back{
     opacity: 0.3;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 .dropdown{
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .midsec{
     display: flex;
@@ -40,11 +40,11 @@ body{
     
 }
 .midsec img{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 .pilogo{
-    width: 80px;
+    width: 90px;
     margin-bottom: 50px;
 }
 .lowerdiv{
@@ -70,7 +70,7 @@ h2{
     margin-bottom: 55px;
 }
 .menudiv img{
-    width: 60px;
+    width: 70px;
 }
 .menudiv div{
     display: flex;
@@ -78,7 +78,7 @@ h2{
     align-items: center;
 }
 .menudiv span{
-    margin-top: 20px;
+    margin-top: 10px;
     color: #713d92;
     font-size: 20px;
 }
