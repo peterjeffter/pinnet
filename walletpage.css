@@ -17,7 +17,7 @@ body{
     z-index: 100;
 }
 .heada p{
-    font-size: 22px;
+    font-size: 15px;
     color: white;
     margin-right: 15px;
 }
@@ -44,11 +44,15 @@ body{
     width: 25px;
     height: 25px;
 }
+.midsec img:last-child{
+    width:20px;
+    height:20px;
+}
 
 .headd{
-    margin-top: 36px;
-    margin-bottom: 40px;
-    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
 }
