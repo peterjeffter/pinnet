@@ -44,7 +44,7 @@ body{
     height: 30px;
 }
 .pilogo{
-    width: 146px;
+    width: 100px;
     margin-bottom: 50px;
 }
 .lowerdiv{
@@ -70,7 +70,7 @@ h2{
     margin-bottom: 55px;
 }
 .menudiv img{
-    width: 87px;
+    width: 77px;
 }
 .menudiv div{
     display: flex;
