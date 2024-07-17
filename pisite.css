@@ -44,12 +44,12 @@ body{
     height: 25px;
 }
 .pilogo{
-    width: 100px;
+    width: 110px;
     margin-bottom: 50px;
 }
 .lowerdiv{
     position: relative;
-    top: 58px;
+    top: 54px;
     display: flex;
     flex-direction: column;
     align-items: center;
