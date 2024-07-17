@@ -90,12 +90,12 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    
     background-color: #713d92;
     border: none;
     height: 60px;
     color: white;
-    width: 250px;
+    width: 200px;
     border-radius: 10px;
     font-size: 15px;
 }
