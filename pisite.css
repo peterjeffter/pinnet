@@ -87,16 +87,15 @@ h2{
     margin-right:10px ;
 }
 .explorebtn{
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    bottom: 10px;
+    margin-top: 10px;
     background-color: #713d92;
     border: none;
-    height: 63px;
+    height: 60px;
     color: white;
-    width: 300px;
+    width: 250px;
     border-radius: 10px;
     font-size: 15px;
 }
