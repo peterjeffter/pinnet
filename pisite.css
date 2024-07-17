@@ -91,14 +91,14 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    bottom: 0;
+    bottom: 10px;
     background-color: #713d92;
     border: none;
     height: 63px;
     color: white;
-    width: 370px;
+    width: 300px;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 15px;
 }
 a{
     text-decoration: none;
