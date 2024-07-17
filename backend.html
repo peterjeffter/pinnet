@@ -1,0 +1,49 @@
+<!-- display.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Textarea Values</title>
+    <style>
+        #contentDisplay {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            min-height: 100px;
+            white-space: pre-wrap; /* Preserve whitespace and newlines */
+        }
+    </style>
+</head>
+<body>
+    <h1>Display Textarea Values</h1>
+    <div id="contentDisplay"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const contentDisplay = document.getElementById('contentDisplay');
+            const clearButton = document.getElementById('clearButton');
+
+            // Retrieve the array of values from localStorage
+            const savedValues = JSON.parse(localStorage.getItem('textareaValues')) || [];
+
+            // Check if there are any saved values
+            if (savedValues.length > 0) {
+                // Display each value on the page
+                contentDisplay.textContent = savedValues.join('\n\n');
+            } else {
+                contentDisplay.textContent = 'No content to display.';
+            }
+
+            // Add an event listener to the clear button
+            clearButton.addEventListener('click', () => {
+                // Clear the saved values from localStorage
+                localStorage.removeItem('textareaValues');
+                // Clear the content display area
+                contentDisplay.textContent = 'Content cleared.';
+            });
+        });
+    </script>
+</body>
+</html>
