@@ -48,7 +48,7 @@ body{
 h3{
     margin-top: 36px;
     margin-bottom: 40px;
-    font-size: 27px;
+    font-size: 20px;
     text-align: center;
 }
 .bodydiv{
@@ -86,7 +86,7 @@ form{
     height: 66px;
     width:88%;
     border-radius: 15px;
-    font-size: 21.5px;
+    font-size: 18px;
 }
 .Textsec{
     margin-top: 30px;
