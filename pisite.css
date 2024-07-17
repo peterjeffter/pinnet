@@ -45,11 +45,11 @@ body{
 }
 .pilogo{
     width: 110px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 .lowerdiv{
     position: relative;
-    top: 54px;
+    top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,7 +66,7 @@ h2{
     grid-template-columns: 87px 87px 87px;
     column-gap: 35px;
     row-gap: 35px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 55px;
 }
 .menudiv img{
@@ -78,7 +78,7 @@ h2{
     align-items: center;
 }
 .menudiv span{
-    margin-top: 10px;
+    margin-top: 5px;
     color: #713d92;
     font-size: 15px;
 }
